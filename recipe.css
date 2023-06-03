@@ -1,0 +1,63 @@
+.menus1{
+    color:white;
+}
+
+.menu1 img{
+    height:300px;
+}
+
+.menus1__container{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.menu1{
+    background:var(--color-optional);
+    text-align:center;
+    border:1px solid transparent;
+    transition:var(--transition);
+}
+
+
+.menu1__info{
+    padding:2rem;
+}
+
+.menu1__info p{
+    margin:1.2rem 0 2rem;
+    font-size: 0.7rem;
+    text-align:left;
+}
+
+
+/*====================================MEDIA QUERY FOR TABLETS=============*/
+
+@media screen and (max-width:1024px){
+
+    .menus1{
+        margin-top:0;
+      }
+    
+      .menus1__container{
+        grid-template-columns:1fr 1fr;
+      }
+
+}
+
+
+@media screen and (max-width:600px){
+
+    .menus1__container{
+        grid-template-columns: 1fr;
+     }
+
+     .menu1__info p{
+        margin:1.2rem 0 2rem;
+        font-size: 1rem;
+        text-align:center;
+    }
+    
+
+}
+

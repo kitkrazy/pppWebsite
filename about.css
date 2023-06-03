@@ -43,8 +43,7 @@
 }
 
 .manEatingClass2{
-    width:400px;
-    height:400px;
+   
 }
 
 .achievement__card:nth-child(2) 
@@ -92,6 +91,12 @@
     background:transparent;
     border-color:var(--color-primary);
 }
+
+
+.team__member img{
+    height:200px;
+}
+
 
 .team__member-image img{
     filter:saturate(0);
@@ -164,6 +169,10 @@
     padding:1rem;
 }
 
+.team__member img{
+    height:300px;
+}
+
 
 
 }
@@ -190,5 +199,9 @@
 
     .team__member p{
         margin-bottom:1.5rem;
+    }
+
+    .team__member img{
+        height:250px;
     }
 }
