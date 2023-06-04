@@ -101,9 +101,9 @@ img{
 }
 
 .btn2:hover{
-    color:var(--color-warning);
+    color:var(--color-white);
     background:transparent;
-    border-color:var(--color-warning);
+    border-color:var(--color-white);
 }
 
 

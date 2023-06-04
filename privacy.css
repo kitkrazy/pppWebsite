@@ -1,0 +1,47 @@
+/*=====================PRIVACYPOLICY===========*/
+
+.about2__achievements{
+    margin-top:3rem;
+}
+.about2__achievements-container{
+    display:grid;
+    grid-template-columns: 40% 60%;
+    gap:5rem;
+}
+
+.about2__achievements h1{
+    color:#e89502;
+    padding-bottom:2rem;
+   
+}
+
+
+
+
+/*===================MEDIA QUERY FOR TABLETS==========*/
+@media screen and (max-width: 1024px){
+    .about2__achievements{
+        margin-top:2rem;
+    }
+
+
+    .about2__achievements-container{
+        grid-template-columns:1fr;
+        gap:4rem;
+    }
+
+    .about2__achievements-left{
+        width:80%;
+        margin:0 auto;
+
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 600px){
+
+
+}
