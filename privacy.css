@@ -18,6 +18,41 @@
 
 
 
+
+
+.about3__achievements{
+    margin-top:3rem;
+}
+
+.about3__achievements-container img{
+    border-radius:2rem;
+    box-shadow: 3px 10px 29px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 3px 10px 29px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 10px 29px 0px rgba(0,0,0,0.75); 
+}
+
+.about3__achievements-container{
+    display:grid;
+    grid-template-columns: 40% 60%;
+    gap:5rem;
+    background:var(--color-berilayt);
+    color:var(--color-optional);
+    padding:2rem;
+}
+
+.about3__achievements-container li{
+list-style-type:circle;
+}
+
+.about3__achievements h1{
+    color:var(--color-primary);
+    padding-bottom:2rem;
+   
+}
+
+
+
+
 /*===================MEDIA QUERY FOR TABLETS==========*/
 @media screen and (max-width: 1024px){
     .about2__achievements{
@@ -37,11 +72,39 @@
     }
 
 
+    .about3__achievements{
+        margin-top:2rem;
+    }
 
+
+    .about3__achievements-container{
+        grid-template-columns:1fr;
+        gap:4rem;
+    }
+
+    .about3__achievements-left{
+        width:80%;
+        margin:0 auto;
+
+    }
+
+    
+
+
+   
 }
 
 
+
+/*===================MEDIA QUERY FOR MOBILE==========*/
+
+
+
+
 @media screen and (max-width: 600px){
+   
+        
+
 
 
 }

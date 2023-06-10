@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Putaheng Pinoy at Panlasa</title>
 </head>
-<body>
+
     <div id="home"></div>
 <nav>
   <div class="container nav__container">
@@ -30,6 +30,7 @@
     <ul class="nav__menu">
     <li><a href="index.html">Home</a></li>
     <li><a href="about.html">About us</a></li>
+    <li><a href="menu.html">Menu</a></li>
     <li><a href="contact.html">Contact</a></li>
       </ul>
    <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
@@ -52,7 +53,7 @@
        
          
     </p>
-    <a href="#menu" class="btn btn-primary">View Menu</a>
+    <a href="menu.html" class="btn btn-primary">View Menu</a>
   </div>
 
   <div class="header__right">
@@ -67,6 +68,14 @@
 
 
 </header>
+
+
+
+<section class="vidIntro">
+ <video autoplay muted loop id="ppp">
+  <source src="vid/pppLoop.mp4" type="video/mp4">
+ </video>
+</section>
 
 
 <!-------------------END OF HEADER------------------------->
@@ -113,68 +122,6 @@
 </section>
 <!-------------------END OF ABOUT US------------------------->
 
-<!-----------------------START OF MENUS----------------------->
-<section class="menus">
-  <h2><font color="#e89502">Choose your meal today!</font></h2>
-  <div id="menu"></div>
-  <div class="container menus__container">
-     <article class="menu">
-      
-      <div class="menu__image">
-          <img src="./imgs/chickenMenuImg.jpg"> 
-      </div>
-      <div class="menu__info">
-        <h4>Chicken Recipes</h4>
-        <p>A collection of delicious chicken recipes with a touch of a filipino taste.
-        </p>
-        <a href="chickenMenu.html" class="btn btn-primary">View Recipes</a>
-      </div>
-     </article>
-
-
-     <article class="menu">
-      <div class="menu__image">
-          <img src="./imgs/porkMenuImg.jpg"> 
-      </div>
-      <div class="menu__info">
-        <h4>Pork Recipes</h4>
-        <p>A collection of delicious pork recipes with a touch of a filipino taste.
-        </p>
-        <a href="porkMenu.html" class="btn btn-primary">View Recipes</a>
-      </div>
-     </article>
-
-
-     <article class="menu">
-      <div class="menu__image">
-          <img src="./imgs/fishMenuImg.jpg"> 
-      </div>
-      <div class="menu__info">
-        <h4>Seafood Recipes</h4>
-        <p>A collection of delicious seafood recipes with a touch of a filipino taste.
-        </p>
-        <a href="seafoodMenu.html" class="btn btn-primary">View Recipes</a>
-      </div>
-     </article>
-
-
-     <article class="menu">
-      <div class="menu__image">
-          <img src="./imgs/beefMenuImg.jpg"> 
-      </div>
-      <div class="menu__info">
-        <h4>Beef Recipes</h4>
-        <p>A collection of delicious beef recipes with a touch of a filipino taste.
-        </p>
-        <a href="beefMenu.html" class="btn btn-primary">View Recipes</a>
-      </div>
-     </article>
-
-
-</section>
-
-
-<!-------------------END OF MENUS------------------------->
 
 
 <!----------------START OF FAQS--------------------------->
@@ -363,6 +310,49 @@ The design is keen and also easy to use
       </div>
     </article>
 
+
+    <article class="testimonial swiper-slide">
+      <div class="avatar">
+        <img src="./imgs/rojane.jpg">
+      </div>
+      <div class="testimonial__info">
+        <h5>Rojanedelle Fuentes</h5>
+        <small>CvSU - BSN</small>
+      </div>
+      <div class="testimonial__body">
+        <p>
+          The extensive information on ingredients and preparation 
+          methods is what draws me to this website. It's also easy to navigate, 
+          so you can quickly find the recipes you want or check out the rest of the site's offerings with minimal effort.
+        </p>
+      </div>
+    </article>
+
+
+
+    
+    <article class="testimonial swiper-slide">
+      <div class="avatar">
+        <img src="./imgs/vhinz.jpg">
+      </div>
+      <div class="testimonial__info">
+        <h5>Vhinz Palaya</h5>
+        <small>NU Dasmariñas - BSIT </small>
+      </div>
+      <div class="testimonial__body">
+        <p>
+          What I like about this website is that it is user-friendly. 
+          Users only need to interact with the images below, and all the necessary
+           information is already provided in complete detail. Instead of searching for recipes online, 
+           this website offers comprehensive instructions 
+          and detailed information on the ingredients required to prepare various recipes showcased on the site.
+        </p>
+      </div>
+    </article>
+
+
+
+
     
 
 
@@ -396,6 +386,7 @@ The design is keen and also easy to use
       <ul class="permalinks">
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html">About</a></li>
+      <li><a href="menu.html">Menu</a></li>
       <li><a href="contact.html">Contact</a></li>
       </ul>
     </div>

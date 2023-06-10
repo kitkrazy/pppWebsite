@@ -209,6 +209,14 @@ header{
 /*=======================ABOUT US============================*/
 
 
+#ppp{
+    display:grid;
+    grid-template-columns: 1fr;
+    width:100%;
+    height:auto;
+   
+}
+
 .categories{
     background:var(--color-bg1);
     color:var(--color-white);
@@ -277,11 +285,15 @@ background: var(--color-success);
     font-size:0.85rem;
 }
 
+.vidIntro{
+   margin-top:5rem;
+} 
+
 
 /*=======================MENU============================*/
 
 .menus{
-    margin-top:10rem;
+    margin-top:3rem;
     color:white;
 }
 
@@ -578,7 +590,16 @@ footer{
 
  .categories__left{
     margin-right:0;
+    
  }
+
+ .manEatingClass{
+    height:320px;
+    width:auto;
+    margin-left:2rem;
+ }
+
+
 
  /*===================MENU=========================*/
 
